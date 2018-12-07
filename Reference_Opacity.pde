@@ -3,39 +3,23 @@ void setup() {
 size(800,800);
 background(255,128,51);
 }
-
 void draw() {
 frameRate(120);
-  fill(random(255)); 
-  
+  fill(random(255));   
   ellipse(mouseX,mouseY,10,60);
-
-
-
 //first circle
 noStroke();
 fill(204,102,0);
 ellipse(400,400,600,600);
-
-
-
 //second circle
 fill(20);
 fill(255,153,153,100);
 strokeWeight(50);
 ellipse(400,400,500,500);
-
 //last circle/hole
 fill(255,153,153);
 fill(255,255,255);
 ellipse(400,400,200,200);
-
-
-
-
-
-
-
 // sprinkels
 noStroke();
 fill(102,178,255);
@@ -54,7 +38,6 @@ ellipse(399,610,10,60);
 ellipse(330,560,10,60);
 ellipse(400,220,10,60);
 ellipse(350,280,10,60);
-
 //yellow sprinkle
 fill(255,255,0);
 ellipse(250,300,10,60);
